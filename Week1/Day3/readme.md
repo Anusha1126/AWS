@@ -59,22 +59,22 @@ Created the following dashboards for the dataset `employee_laid_off`:
 - Relationship between **location** and **percentage_laid_off**
 
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/11.png?raw=true) )
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/11.png?raw=true) )
 
 ### **2. Bar Chart**
 - Relationship between **funds_raised** and **industry**
   
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/12.png?raw=true) )
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/12.png?raw=true) )
 
 ### **3. Heat Map**
 - Relationship between **count_of_records** and **funds_raised_millions**
   
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/13.png?raw=true) )
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/13.png?raw=true) )
 
 ### **4. Vertical Stacked Bar Chart**
 - Relationship between **Job level** and **Monthly Compensation**
   
-![Stacked Bar Chart](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/14.png?raw=true) )
+![Stacked Bar Chart](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/14.png?raw=true) )
 
 
 ## Accessing Users using AWS CLI
@@ -84,7 +84,7 @@ Created the following dashboards for the dataset `employee_laid_off`:
 aws quicksight list-users --aws-account-id 970547378939 --namespace default --region us-east-1
 ```
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/15.png?raw=true) )
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/15.png?raw=true) )
 
 
 ### **Using Python (Boto3 SDK) to List QuickSight Users and Dashboards**
@@ -103,7 +103,7 @@ response = client.list_dashboards(AwsAccountId=account_id)
 for dashboard in response['DashboardSummaryList']:
     print(f"Dashboard Name: {dashboard['Name']}, Dashboard ID: {dashboard['DashboardId']}")
 
-![Python SDK](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/16.png?raw=true) )
+![Python SDK](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/16.png?raw=true) )
 
 ---
 
@@ -111,19 +111,19 @@ for dashboard in response['DashboardSummaryList']:
 
 ### **Manage QuickSight and Add Permissions**
 
-![Manage QuickSight](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/17.png?raw=true) )
+![Manage QuickSight](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/17.png?raw=true) )
 
 ### **Connecting to the Data Source (S3)**
 
-![S3 Connection](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/18.png?raw=true) )
+![S3 Connection](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/18.png?raw=true) )
 
 ### **Connection Establishment**
 
-![Connection Establishment](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/19.png?raw=true) )
+![Connection Establishment](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/19.png?raw=true) )
 
 ### **Data Visualization of Employees**
 
-![Employee Visualization](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/20.png?raw=true) )
+![Employee Visualization](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/20.png?raw=true) )
 
 ---
 
@@ -291,44 +291,44 @@ Crawler ----> Establishes connection with S3 ----> Table is created in Glue Data
 
 ### 1. Creating the S3 Bucket and Uploading Files
 Initially, a bucket and file were created in the following location:
-![Product Visualization](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/21.png?raw=true) )
+![Product Visualization](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/21.png?raw=true) )
 
 ### 2. Creating the IAM Role and Attaching Policies
 A role was created and the necessary policies were attached:
-![Roles](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/22.png?raw=true) )
+![Roles](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/22.png?raw=true) )
 
 ### 3. Creating the Crawler
 A crawler was set up to catalog the data:
-![Crawler](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/23.png?raw=true) )
+![Crawler](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/23.png?raw=true) )
 
 ### 4. Executing the Crawler
 After the successful execution of the crawler, a table was created:
-![Crawler](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/24.png?raw=true) )
+![Crawler](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/24.png?raw=true) )
 
 ### 5. Setting Up Athena
 If using Athena for the first time, setup is required:
-![Athena Setup](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/25.png?raw=true) )
+![Athena Setup](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/25.png?raw=true) )
 
 ### 6. Query Execution in Athena
 Results after executing a query in Athena:
-![Athena Result](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/26.png?raw=true) )
+![Athena Result](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/26.png?raw=true) )
 
 ### 7. Creating an ETL Job and Destination Folder
 An ETL job was created, and a destination folder was set up:
-![ETL](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/27.png?raw=true) )
+![ETL](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/27.png?raw=true) )
 
 ### 8. Viewing Processed Data
 To view the results again, a new table can be created in the Glue catalog and queried using Athena.
 
 status of the crawler using CLI
 $ aws glue get-crawler --name products --query "Crawler.State" --region us-east-1
-![status](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/28.png?raw=true) )
+![status](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/28.png?raw=true) )
 
 To create the database using CLI
 ```bash
 $ aws glue create-database --database-input '{"Name":"my_employees_data_catalog_db","Description":"My Glue Data Catalog Database"}'
 ```
-![dbcreation](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/29.png?raw=true) )
+![dbcreation](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/29.png?raw=true) )
 
 Command to create the crawler
 ```bash
@@ -338,7 +338,7 @@ aws glue create-crawler --name my_employee_s3_crawler \
     --targets '{"S3Targets": [{"Path": "s3://my-employees/employees.csv"}]}'
 ```
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/30.png?raw=true) )
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/30.png?raw=true) )
 
 Create the table using CLI
 ```bash
@@ -354,7 +354,7 @@ $ aws glue create-table --database-name my_employees_data_catalog_db --table-inp
     }
 }'
 ```
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/31.png?raw=true) )
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/31.png?raw=true) )
 
 Code to create database, table and crawler
 
@@ -442,10 +442,10 @@ run_crawler()
 
 ```
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/31.png?raw=true) )
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/32.png?raw=true) )
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/33.png?raw=true) )
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/34.png?raw=true) )
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/31.png?raw=true) )
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/32.png?raw=true) )
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/33.png?raw=true) )
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/34.png?raw=true) )
 
 
 
