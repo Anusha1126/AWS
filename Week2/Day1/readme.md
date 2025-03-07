@@ -26,33 +26,33 @@ Amazon Athena is a **serverless interactive query service** that allows you to a
 ### Data Storage and Crawling
 Initially, data is stored in AWS Glue and fetched from S3.
 
-![Crawler](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/24.png?raw=true)
+![Crawler](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/24.png?raw=true)
 
 ---
 
 ### Setting Up Athena
 If using Athena for the first time, setup is required. The results are stored in a specified S3 location.
 
-![Athena Setup](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/25.png?raw=true)
+![Athena Setup](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/25.png?raw=true)
 
 ---
 
 ### Query Execution in Athena
 Results after executing a query in Athena:
 
-![Athena Result](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/26.png?raw=true)
+![Athena Result](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/26.png?raw=true)
 
 Results are stored in the location:
 
-![Athena Result](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/1.png?raw=true)
+![Athena Result](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/1.png?raw=true)
 
 Now, the database and table are created directly in Athena:
 
-![Athena Result](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/2.png?raw=true)
+![Athena Result](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/2.png?raw=true)
 
 Query execution result:
 
-![Athena Result](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/3.png?raw=true)
+![Athena Result](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/3.png?raw=true)
 
 ---
 
@@ -146,7 +146,7 @@ else:
     print(f"❌ Query failed with status: {query_status}")
 ```
 
-![Athena Result](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/4.png?raw=true)
+![Athena Result](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/4.png?raw=true)
 
 ---
 
@@ -181,7 +181,7 @@ aws athena start-query-execution \
 
 ```
 
-![Athena Result](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/5.png?raw=true) 
+![Athena Result](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/5.png?raw=true) 
 
 # AWS ECS: Elastic Container Service
 
@@ -222,7 +222,7 @@ Uses ALB/NLB for distributing traffic to ECS tasks:
 - **Classic Load Balancer (CLB):** Legacy load balancer.
 
 ## ECS vs Docker
-![Athena Result](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/6.png?raw=true) 
+![Athena Result](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/6.png?raw=true) 
 | Feature  | Docker | ECS |
 |----------|--------|-----|
 | Management | Manual container management, networking, and scaling | Automated deployment, scaling, networking, and monitoring |
@@ -275,16 +275,16 @@ ECS supports various backend frameworks (Node.js, Python, Java, etc.), with the 
 
 
 ## Created Cluster
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/7.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/7.png?raw=true)
 
 ## Created Task Definition
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/8.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/8.png?raw=true)
 
 ## Created Service
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/9.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/9.png?raw=true)
 
 ## Opened the Task and Retrieved Public IP (NGINX Created)
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/10.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/10.png?raw=true)
 
 ### Cleanup Steps:
 - Stop the task
@@ -365,8 +365,8 @@ create_ecs_cluster()
 register_task_definition()
 create_service()
 ```
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/21.png?raw=true)
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/22.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/21.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/22.png?raw=true)
 
 ## Using AWS CLI:
 
@@ -374,20 +374,20 @@ create_service()
 ```sh
 aws ecr create-repository --repository-name my-app-repo --region us-east-1
 ```
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/12.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/12.png?raw=true)
 
 ### Get Repository URI
 ```sh
 aws ecr describe-repositories --query "repositories[?repositoryName=='my-app-repo'].repositoryUri" --output text
 ```
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/13.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/13.png?raw=true)
 
 ### Authenticate Docker with ECR
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/14.png?raw=true)
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/15.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/14.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/15.png?raw=true)
 
 ### Pull the Image
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/16.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/16.png?raw=true)
 
 #### Run the following command in CMD to pull the image:
 ```sh
@@ -422,7 +422,7 @@ Open a web browser and go to:
 http://localhost:8080
 ```
 You should see the default NGINX welcome page.
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/17.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/17.png?raw=true)
 
 ---
 
@@ -430,11 +430,11 @@ You should see the default NGINX welcome page.
 ```sh
 aws ecs create-cluster --cluster-name my-elastic-cluster
 ```
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/18.png?raw=true)
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/19.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/18.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/19.png?raw=true)
 
 ## Task Definition
-![Docker](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day1/images/20.png?raw=true)
+![Docker](https://github.com/Anusha1126/AWS/blob/main/Week2/Day1/images/20.png?raw=true)
 
 
 ## Best Practices for AWS ECS
