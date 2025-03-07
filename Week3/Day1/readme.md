@@ -207,19 +207,19 @@ output "inline_policy_name" {
 ```
 
 Scalr
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/1.png?raw=true)
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/1.png?raw=true)
 Bucket is created 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/2.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/2.png?raw=true) 
 User created
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/3.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/3.png?raw=true) 
 File uploaded to bucket
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/4.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/4.png?raw=true) 
 Role is created
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/5.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/5.png?raw=true) 
 Inline policy is created
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/6.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/6.png?raw=true) 
 Declaration of variables
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/7.png?raw=true)  
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/7.png?raw=true)  
 
 ## Conclusion
 This demo provides an introduction to using Terraform with AWS S3 and IAM, along with backend best practices. Understanding these components helps in managing infrastructure as code efficiently.
@@ -355,9 +355,9 @@ output "rds_security_group_id" {
 }
 
 ```    
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/8.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/8.png?raw=true) 
 Declaration of variables
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/11.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/11.png?raw=true) 
 
 modules/rds/variables.tf
 
@@ -557,10 +557,10 @@ output "redshift_endpoint" {
    - Verify in AWS Redshift console.
 
 Success in scalr
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/9.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/9.png?raw=true) 
 
 Cluster creation in cloud
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day1/images/10.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day1/images/10.png?raw=true) 
 
 ## Conclusion
 Terraform Redshift with Scalr provides a robust and scalable solution for managing Redshift clusters efficiently. By leveraging Scalr’s governance and remote state management, teams can enforce compliance, optimize costs, and streamline infrastructure provisioning.
