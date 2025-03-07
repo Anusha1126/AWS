@@ -48,9 +48,9 @@ aws configure list
 ```sh
 aws s3 mb s3://my-new-bucket
 ```
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture1.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture2.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture3.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture1.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture2.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture3.png?raw=true) 
 ### **S3 Configuration using Python (Boto3)**
 #### **Creating an S3 Bucket**
 
@@ -86,8 +86,8 @@ def upload_object(bucket_name, object_name, file_path):
 
 ---
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture4.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture5.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture4.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture5.png?raw=true) 
 
 ## **AWS IAM - Identity and Access Management**
 
@@ -120,7 +120,7 @@ aws iam list-users
 ```sh
 aws iam create-user --user-name data_admin
 ```
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture6.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture6.png?raw=true) 
 ### **IAM Configuration using Python (Boto3)**
 #### **Creating an IAM User**
 ```python
@@ -146,8 +146,8 @@ except Exception as e:
 ```
 
 ---
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture7.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture8.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture7.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture8.png?raw=true) 
 
 
 ## **Amazon RDS - Relational Database Service**
@@ -212,8 +212,8 @@ conn.close()
 - **Disaster Recovery**: Enable automated failover with Multi-AZ deployments and snapshots.
 - **Hybrid Cloud Integration**: Extend on-premises databases into the cloud for scalability and reliability.
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture9.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture10.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture9.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture10.png?raw=true) 
 
 ## **Conclusion**
 AWS provides powerful cloud services for storage, security, and database management. Key takeaways:
