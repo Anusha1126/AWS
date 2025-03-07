@@ -1,0 +1,19 @@
+{
+    "family": "my-task",
+    "networkMode": "awsvpc",
+    "containerDefinitions": [
+      {
+        "name": "my-app-container",
+        "image": "970547378939.dkr.ecr.us-east-1.amazonaws.com/my-app-repo:latest",
+        "memory": 512,
+        "cpu": 256,
+        "essential": true,
+        "portMappings": [
+          {
+            "containerPort": 80,
+            "hostPort": 80
+          }
+        ]
+      }
+    ]
+  }
