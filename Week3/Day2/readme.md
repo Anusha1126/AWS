@@ -502,12 +502,12 @@ security_group_ids = ["sg-01be7c620263ea11f"]
 container_definitions = "[{\"name\":\"test-container\",\"image\":\"nginx\",\"cpu\":512,\"memory\":1024,\"essential\":true,\"portMappings\":[{\"containerPort\":80,\"hostPort\":80}]}]"
 ```
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day2/images/1.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day2/images/2.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day2/images/3.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day2/images/4.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day2/images/5.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day2/images/6.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day2/images/7.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day2/images/8.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week3/Day2/images/9.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day2/images/1.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day2/images/2.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day2/images/3.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day2/images/4.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day2/images/5.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day2/images/6.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day2/images/7.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day2/images/8.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week3/Day2/images/9.png?raw=true) 
