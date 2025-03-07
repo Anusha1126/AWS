@@ -54,9 +54,9 @@ aws configure list
 ```sh
 aws s3 mb s3://my-new-bucket
 ```
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture1.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture2.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture3.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture1.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture2.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture3.png?raw=true) 
 ### **S3 Configuration using Python (Boto3)**
 #### **Creating an S3 Bucket**
 
@@ -92,8 +92,8 @@ def upload_object(bucket_name, object_name, file_path):
 
 ---
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture4.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture5.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture4.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture5.png?raw=true) 
 
 ## **AWS IAM - Identity and Access Management**
 
@@ -154,7 +154,7 @@ To verify the configured settings, use:
 aws configure list
 ```
 
-![AWS Configure](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/1.png?raw=true)
+![AWS Configure](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/1.png?raw=true)
 
 ---
 
@@ -165,7 +165,7 @@ Create an IAM user named `data_admin` using the following command:
 aws iam create-user --user-name data_admin
 ```
 
-![Create IAM User](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/2.png?raw=true)
+![Create IAM User](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/2.png?raw=true)
 
 ---
 
@@ -202,8 +202,8 @@ Verify the policy:
 aws iam list-user-policies --user-name data_admin
 ```
 
-![List User Policies](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/3.png?raw=true)
-![Policy Verification](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/4.png?raw=true)
+![List User Policies](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/3.png?raw=true)
+![Policy Verification](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/4.png?raw=true)
 
 ---
 
@@ -214,8 +214,8 @@ Attach the `AmazonS3ReadOnlyAccess` managed policy to the IAM user:
 aws iam attach-user-policy --user-name data_admin --policy-arn arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
 ```
 
-![Attach Managed Policy](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/5.png?raw=true)
-![Policy Confirmation](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/6.png?raw=true)
+![Attach Managed Policy](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/5.png?raw=true)
+![Policy Confirmation](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/6.png?raw=true)
 
 ---
 
@@ -293,8 +293,8 @@ if __name__ == "__main__":
     main()
 ```
 
-![Boto3 Execution](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/7.png?raw=true)
-![Final Output](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day3/images/8.png?raw=true)
+![Boto3 Execution](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/7.png?raw=true)
+![Final Output](https://github.com/Anusha1126/AWS/blob/main/Week1/Day3/images/8.png?raw=true)
 
 ## **Amazon RDS - Relational Database Service**
 
@@ -358,8 +358,8 @@ conn.close()
 ```
 
 ---
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture9.png?raw=true) 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day1/images/Picture10.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture9.png?raw=true) 
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day1/images/Picture10.png?raw=true) 
 
 **RDS Data Insertion**
 
@@ -617,7 +617,7 @@ except Exception as e:
     print("Error:", e)
 ```
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day2/Images/Cluster_Creation.png)
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day2/Images/Cluster_Creation.png)
 
 
 ## **Checking Cluster Status**
@@ -644,8 +644,8 @@ while True:
         break
     time.sleep(30)  # Check status every 30 seconds
 ```
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day2/Images/retrieve_cluster.png)
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day2/Images/Query_output.png)
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day2/Images/retrieve_cluster.png)
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day2/Images/Query_output.png)
 
 ## **Creating the table**
 
@@ -701,7 +701,7 @@ try:
 except Exception as e:
     print(f"❌ Connection Error: {e}")
     
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day2/Images/create_table.png)
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day2/Images/create_table.png)
 
 ## **Connecting to Redshift Cluster**
 
@@ -737,9 +737,9 @@ try:
 except Exception as e:
     print("❌ Connection Error:", e)
 ```
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day2/Images/create_table.png)
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day2/Images/create_table.png)
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day2/Images/result1.png)
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day2/Images/result1.png)
 import psycopg2
 
 
@@ -802,7 +802,7 @@ try:
 except Exception as e:
     print(f"❌ Connection Error: {e}")
 ```
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day2/Images/result_python.png)
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day2/Images/result_python.png)
 
 ## **Creating and Deleting Cluster using AWS CLI (Git Bash)**
 
@@ -821,8 +821,8 @@ aws redshift create-cluster \
     --iam-roles arn:aws:iam::970547378939:role/RedshiftRole
 ```
 
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day2/Images/cluster_creation_thru_bash.png)
-![My Image](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week1/Day2/Images/Query_output.png)
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day2/Images/cluster_creation_thru_bash.png)
+![My Image](https://github.com/Anusha1126/AWS/blob/main/Week1/Day2/Images/Query_output.png)
 
 ### **Delete Cluster**
 
