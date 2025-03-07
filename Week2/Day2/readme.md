@@ -134,22 +134,22 @@ This project demonstrates the creation and deployment of an AWS Lambda function 
 - Created a new AWS Lambda function via the AWS Console.
 - Chose a new IAM role with basic Lambda policies.
 
-![Lambda Function Creation](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/7.png?raw=true)
+![Lambda Function Creation](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/7.png?raw=true)
 =======
-![Lambda Function Creation](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/8.png?raw=true)
+![Lambda Function Creation](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/8.png?raw=true)
 
 ### 2. Destination Handling and S3 Integration
 - Configured the Lambda function to save failed executions back to an S3 bucket.
 
 =======
-![S3 Failure Handling](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/9.png?raw=true)
+![S3 Failure Handling](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/9.png?raw=true)
 
 
 ### 3. CloudWatch Logging
 - Logs are stored in CloudWatch, accessible for debugging after test execution.
 
 
-![CloudWatch Logs](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/10.png?raw=true)
+![CloudWatch Logs](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/10.png?raw=true)
 =======
 
 
@@ -199,11 +199,11 @@ def lambda_handler(event, context):
 pip install requests -t "C:\\Program Files\\Python313\\Lib\\site-packages"
 ```
 
-![Lambda Layer Creation](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/11.png?raw=true)
+![Lambda Layer Creation](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/11.png?raw=true)
 
 Lambda Layers
-![Lambda Layer Creation](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/30.png?raw=true)
-![Lambda Layer Creation](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/31.png?raw=true)
+![Lambda Layer Creation](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/30.png?raw=true)
+![Lambda Layer Creation](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/31.png?raw=true)
 =======
 
 
@@ -232,7 +232,7 @@ response = lambda_client.create_function(
 print(f"✅ Lambda Function Created: {response['FunctionArn']}")
 ```
 
-![Lambda Deployment](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/12.png?raw=true)
+![Lambda Deployment](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/12.png?raw=true)
 =======
 
 
@@ -254,19 +254,19 @@ except Exception as e:
     print(f"Error uploading file: {e}")
 ```
 
-![S3 Upload](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/15.png?raw=true)
+![S3 Upload](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/15.png?raw=true)
 Data in s3 bucket
-![S3 Upload](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/19.png?raw=true)
+![S3 Upload](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/19.png?raw=true)
 ## 7. UI Preview
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/16.png?raw=true)
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/17.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/16.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/17.png?raw=true)
 =======
-![S3 Upload](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/15.png?raw=true)
+![S3 Upload](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/15.png?raw=true)
 Data in s3 bucket
-![S3 Upload](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/19.png?raw=true)
+![S3 Upload](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/19.png?raw=true)
 ## 7. UI Preview
 
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/18.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/18.png?raw=true)
 
 Lambda_destination
 
@@ -328,23 +328,23 @@ print(f"   - Success → SNS Topic: {sns_topic_arn}")
 print(f"   - Failure → SQS Dead Letter Queue: {sqs_queue_arn}")
 
 ```
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/19.png?raw=true)
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/20.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/19.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/20.png?raw=true)
 SNS
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/22.png?raw=true)
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/21.png?raw=true)
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/23.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/22.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/21.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/23.png?raw=true)
 
 Created table in Dynamo DB
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/24.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/24.png?raw=true)
 Inserted data into Dynamo DB
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/25.png?raw=true)
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/26.png?raw=true)
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/27.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/25.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/26.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/27.png?raw=true)
 CloudWatch
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/28.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/28.png?raw=true)
 DynamoDB: Data transferred to cloudwatch
-![Lambda UI](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/29.png?raw=true)
+![Lambda UI](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/29.png?raw=true)
 
 ## Conclusion
 This project demonstrates:
