@@ -1,0 +1,7 @@
+{
+  "fileLocations": [
+    {
+      "URIs": ["s3://my-employees/employees.csv"]
+    }
+  ]
+}
