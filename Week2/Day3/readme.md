@@ -9,14 +9,14 @@ This document provides an overview of the AWS migration process, including essen
 AWS offers a range of tools to facilitate efficient and secure data migration. The primary tools used in this process include:
 
 
-![AWS Glue Crawler](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/2.png?raw=true)
+![AWS Glue Crawler](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/2.png?raw=true)
 
-![AWS DMS](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/3.png?raw=true)
+![AWS DMS](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/3.png?raw=true)
 
 AWS DMS helps migrate databases to AWS quickly and securely while minimizing downtime. It supports homogeneous and heterogeneous database migrations.
 
 ### Why Migration is Important
-![Importance of Migration](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day2/images/4.png?raw=true)
+![Importance of Migration](https://github.com/Anusha1126/AWS/blob/main/Week2/Day2/images/4.png?raw=true)
 
 AWS DMS helps migrate databases to AWS quickly and securely while minimizing downtime. It supports homogeneous and heterogeneous database migrations.
 
@@ -75,13 +75,13 @@ Before starting the demo, ensure you have:
 4. Define allocated storage and VPC settings.
 5. Click **Create** and wait for the instance to be available.
 
-![Replication Instance](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day3/images/1.png?raw=true)
+![Replication Instance](https://github.com/Anusha1126/AWS/blob/main/Week2/Day3/images/1.png?raw=true)
 
 A replication instance is required to facilitate the migration process. It manages the transfer of data from the source to the target database.
 
 ### Step 2: Source and Destination Database Creation
 
-![Database Creation](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day3/images/5.png?raw=true)
+![Database Creation](https://github.com/Anusha1126/AWS/blob/main/Week2/Day3/images/5.png?raw=true)
 
 Before migrating data, both source and destination databases must be configured properly. AWS supports various databases, including Amazon RDS, Aurora, and third-party databases like MySQL and PostgreSQL.
 
@@ -91,7 +91,7 @@ Before migrating data, both source and destination databases must be configured 
 3. Test the connection before saving.
 4. Repeat the process for the **Target Endpoint**.
 
-![Creating Endpoints](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day3/images/6.png?raw=true)
+![Creating Endpoints](https://github.com/Anusha1126/AWS/blob/main/Week2/Day3/images/6.png?raw=true)
 
 Endpoints define the connection settings for both source and target databases. Properly configured endpoints ensure seamless data flow between the two environments.
 
@@ -247,7 +247,7 @@ print("Database operations completed successfully.")
 
 ```
 
-![Creating Endpoints](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day3/images/7.png?raw=true)
+![Creating Endpoints](https://github.com/Anusha1126/AWS/blob/main/Week2/Day3/images/7.png?raw=true)
 
 ## Instance Creation
 
@@ -285,7 +285,7 @@ except Exception as e:
 
 ```    
 
-![Creating Endpoints](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day3/images/9.png?raw=true)
+![Creating Endpoints](https://github.com/Anusha1126/AWS/blob/main/Week2/Day3/images/9.png?raw=true)
 
 ## End points creation
 ## Source end point
@@ -368,7 +368,7 @@ create_postgres_target_endpoint()
 
 ``` 
 
-![Creating Endpoints](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day3/images/10.png?raw=true)
+![Creating Endpoints](https://github.com/Anusha1126/AWS/blob/main/Week2/Day3/images/10.png?raw=true)
 
 ## Migration task
 
@@ -450,9 +450,9 @@ except Exception as e:
     print(f"Error: {str(e)}")
 
 ``` 
-![Creating Endpoints](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day3/images/8.png?raw=true)    
+![Creating Endpoints](https://github.com/Anusha1126/AWS/blob/main/Week2/Day3/images/8.png?raw=true)    
 
-![Creating Endpoints](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day3/images/12.png?raw=true)    
+![Creating Endpoints](https://github.com/Anusha1126/AWS/blob/main/Week2/Day3/images/12.png?raw=true)    
 
 
 CLI:
@@ -473,7 +473,7 @@ aws rds create-db-instance ^
     --vpc-security-group-ids sg-xxxxxxxx ^
     --region us-east-1
 ```
-![Creating Endpoints](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day3/images/14.png?raw=true)    
+![Creating Endpoints](https://github.com/Anusha1126/AWS/blob/main/Week2/Day3/images/14.png?raw=true)    
 
 ## Target RDS
 ```
@@ -528,7 +528,7 @@ aws dms create-endpoint ^
 ```    
 
 ## Created table before replication task
-![Creating Endpoints](https://github.com/ray-tech-usa/DET_GEN_AI_2025_B4_WEEK_01/blob/feature-anusha/Week2/Day3/images/13.png?raw=true)    
+![Creating Endpoints](https://github.com/Anusha1126/AWS/blob/main/Week2/Day3/images/13.png?raw=true)    
 
 ## Create replication task
 ```bash
